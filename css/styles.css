@@ -43,6 +43,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
@@ -113,11 +115,6 @@ button {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /*--------------------------- Header---------------------------- */
@@ -451,6 +448,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-title-text-color);
+  margin-bottom: 4px;
 }
 
 .portfolio-text {
@@ -465,4 +463,5 @@ img {
   padding-bottom: 20px;
   padding-left: 24px;
   border: 1px solid var(--border-colod);
+  border-top: 0ch;
 }
