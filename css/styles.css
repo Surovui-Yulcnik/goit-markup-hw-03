@@ -413,7 +413,22 @@ img {
   margin-bottom: 0;
 }
 
-.btn {
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-decoration: none;
+  padding: 6px 22px;
+  /* text-align: center; */
+  min-width: 73px;
+  height: 38px;
+  background: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+/* .btn {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -421,14 +436,14 @@ img {
   text-align: center;
   margin-right: 8px;
   border-radius: 4px;
-}
+} */
 
-.btn:hover {
+.btn-portfolio:hover {
   color: var(--title-text-color);
   background-color: var(--accent-color);
 }
 
-.btn:focus {
+.btn-portfolio:focus {
   color: var(--title-text-color);
   background-color: var(--accent-color);
 }
