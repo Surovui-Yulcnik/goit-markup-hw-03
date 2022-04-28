@@ -13,8 +13,9 @@
   --hero-background-color: #2f303a;
   --footer-background-color: #2f303a;
   --section-team-color: #f5f4fa;
-  --border-colod: #eeeeee;
+  --border-color: #eeeeee;
   --portfolio-btm-color: #f5f4fa;
+  --border-header: #ececec;
 }
 
 body {
@@ -119,6 +120,7 @@ button {
 
 /*--------------------------- Header---------------------------- */
 .header {
+  border: 1px solid var(--border-header);
 }
 
 .header-flex {
@@ -135,15 +137,11 @@ button {
   flex-wrap: wrap;
   align-content: center;
   margin-left: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-contact-list {
   display: flex;
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-item {
@@ -158,6 +156,8 @@ button {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 00.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--header-link-color);
 }
 
@@ -174,6 +174,8 @@ button {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
 }
 
@@ -231,6 +233,7 @@ button {
   height: 50px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 /* <!-------------------------Benefits------------------------> */
@@ -304,7 +307,7 @@ button {
   width: calc((100%-90px) / 4);
   margin-left: 30px;
   width: 270px;
-  height: 368px;
+
   background: var(--background-color);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -462,6 +465,6 @@ button {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
-  border: 1px solid var(--border-colod);
+  border: 1px solid var(--border-color);
   border-top: 0ch;
 }
